@@ -11,6 +11,7 @@ class Solution {
                 sum=nums[k]+nums[i]+nums[j];
                 if(Math.abs(target-sum)<Math.abs(target-closest)){
                     closest=sum;
+                    
                 }
                 if(sum<target){
                     i++;
